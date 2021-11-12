@@ -1,3 +1,21 @@
-This is a commit from VSC
+git status
+git add <path>
+git commit -m "<message>"
+git push
 
-And here for commit 2.
+
+git branch -> get all existing branches
+git branch -m <new_name> -> change the name of the current branch
+git checkout <name> -> switch to the EXISTING branch called <name>
+git checkout -b <name> -> switch to a new branch + create the new branch at same time
+
+
+git log -> see all commits made to the current branch
+
+HEAD -> the latest commit of the current branch
+
+git merge <branch_to_be_merged_in_the_current_branch> -> merge means to combine commits from different branches
+
+
+git remove -> remove a file from the repository
+git reset --hard HEAD~1 -> THE HEAD commit goes back 1 commit earlier (practically deles the latest commit)
