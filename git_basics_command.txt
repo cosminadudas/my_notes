@@ -37,6 +37,8 @@ git clone <repository_link_from_github> -> copies the repository in the current 
 git clone <repository_link_from_github> . -> copies the repository and the current folder will be practically the repository (we will not have a subfolder with the new added repository)
 
 
+git pull -> bring changes from the remote repository
+
 GIT:
 - Local tool installed on your computer
 - Version control for web development projects
