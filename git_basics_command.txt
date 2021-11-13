@@ -1,0 +1,44 @@
+git status
+git add <path>
+git commit -m "<message>"
+git push
+
+
+git branch -> get all existing branches
+git branch -m <new_name> -> change the name of the current branch
+git checkout <name> -> switch to the EXISTING branch called <name>
+git checkout -b <name> -> switch to a new branch + create the new branch at same time
+
+
+git log -> see all commits made to the current branch
+
+HEAD -> the latest commit of the current branch
+
+git merge <branch_to_be_merged_in_the_current_branch> -> merge means to combine commits from different branches
+
+
+git rm <name_of_file_to_be_removed> -> remove a file from the repository
+git reset --hard HEAD~1 -> THE HEAD commit goes back 1 commit earlier (practically deles the latest commit)
+
+git branch -D <name_of_branch_to_be_deleted> -> delete a branch (NOT CURRENT ONE)
+
+git checkout -- . -> reset the branch to the latest commit (practically it deletes your local/uncommited changes)
+git reset <filename> -> staged changes to unstaged changes
+
+
+git remote add origin <url_of_github_repository> 
+git push -u origin main
+--> adds the current changes (from current branch) to the remote repository
+
+
+
+GIT:
+- Local tool installed on your computer
+- Version control for web development projects
+- Organized in "repositories"
+
+GitHub:
+- Cloud hosting provider for "Git repositories"
+- Collaboration in % contribution to web development projects
+- The world's largest development platform
+
