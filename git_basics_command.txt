@@ -30,6 +30,11 @@ git remote add origin <url_of_github_repository>
 git push -u origin main
 --> adds the current changes (from current branch) to the remote repository
 
+deletes the github credentials form local computer ->
+git credential-osxkeychain erase (mac command)
+
+git clone <repository_link_from_github> -> copies the repository in the current folder 
+git clone <repository_link_from_github> . -> copies the repository and the current folder will be practically the repository (we will not have a subfolder with the new added repository)
 
 
 GIT:
